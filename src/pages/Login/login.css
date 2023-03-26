@@ -1,0 +1,27 @@
+.login-live-chat {
+  /* max-width: 1120px; */
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+}
+
+.login {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-lavel {
+  margin-bottom: 40px;
+}
+
+.live-chat {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(101, 226, 43, 0.212);
+}

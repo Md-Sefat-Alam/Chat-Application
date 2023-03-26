@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+.appwrapper {
+  display: flex;
+}
+
+.app-chat-wrap {
+  height: 90vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.app-chat {
+  overflow-y: scroll;
+  padding: 15px 0px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.show-chat {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.app-text-box-wrapper {
+  /* height: 10vh; */
+  width: 100%;
+  display: flex;
+}
+
+.app-text-box {
+  width: 90%;
+}
+
+.app-text-send-btn {
+  width: 10%;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-text-send-btn:hover {
+  cursor: pointer;
+}
+.app-text-send-btn:active {
+  background-color: gray;
+  color: white;
+  transition: all .5s;
+}
+
+.sender-text {
+  max-width: 80%;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 10px;
+}
+.send-text {
+  max-width: 80%;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(17, 107, 224);
+  color: white;
+  border-radius: 10px;
+}
+.send-text-wrapp {
+  display: flex;
+  justify-content: end;
+}
+.sender-text-wrapp {
+  display: flex;
+  justify-content: start;
+}
+
+
+.notification{
+  padding: 5px 0px;
+  margin-bottom: 1px solid lightgray;
+}
